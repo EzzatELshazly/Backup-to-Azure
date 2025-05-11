@@ -26,7 +26,7 @@ azcopy --version
 
 ## 4. Bash Script
 
-Below is the script saved as `/usr/local/bin/backup_sqlite_to_blob.sh`:
+Below is the script saved as `/usr/local/bin/backup_to_blob.sh`:
 
 ```bash
 #!/bin/bash
@@ -53,7 +53,7 @@ fi
 
 Make the script executable:
 ```bash
-sudo chmod +x /usr/local/bin/backup_sqlite_to_blob.sh
+sudo chmod +x /usr/local/bin/backup_to_blob.sh
 ```
 
 ## 5. Cron Job Configuration
@@ -65,7 +65,7 @@ sudo crontab -e
 
 Add this line to run the backup daily at 6 PM Egypt time (3 PM UTC):
 ```cron
-0 16 * * * /usr/local/bin/backup_sqlite_to_blob.sh
+0 16 * * * /usr/local/bin/backup_to_blob.sh
 ```
 
 ## 6. Logs
