@@ -56,7 +56,7 @@ Make the script executable:
 sudo chmod +x /usr/local/bin/backup_sqlite_to_blob.sh
 ```
 
-## 4. Cron Job Configuration
+## 5. Cron Job Configuration
 
 Edit the root user's crontab:
 ```bash
@@ -68,7 +68,7 @@ Add this line to run the backup daily at 6 PM Egypt time (3 PM UTC):
 0 16 * * * /usr/local/bin/backup_sqlite_to_blob.sh
 ```
 
-## 5. Logs
+## 6. Logs
 
 Logs are written to `/var/log/backup.log` and include timestamps for start, success, or failure.
 
