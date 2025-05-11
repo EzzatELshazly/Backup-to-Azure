@@ -22,7 +22,7 @@ sudo cp ./azcopy_linux_amd64_*/azcopy /usr/local/bin/
 azcopy --version
 ```
 ### You should see like this:
-![Screenshot 2025-05-11 113226](https://github.com/user-attachments/assets/9ecaa930-80c0-4f3d-8263-48cd4cbe0bf9)
+![image](https://github.com/user-attachments/assets/24be6592-ba7e-4396-b7ae-e981c7096219)
 
 ## 4. Bash Script
 
