@@ -22,7 +22,8 @@ sudo cp ./azcopy_linux_amd64_*/azcopy /usr/local/bin/
 azcopy --version
 ```
 ### You should see like this:
-![alt text](image.png)
+![Screenshot 2025-05-11 113226](https://github.com/user-attachments/assets/9ecaa930-80c0-4f3d-8263-48cd4cbe0bf9)
+
 ## 4. Bash Script
 
 Below is the script saved as `/usr/local/bin/backup_sqlite_to_blob.sh`:
@@ -71,6 +72,8 @@ Add this line to run the backup daily at 6 PM Egypt time (3 PM UTC):
 
 Logs are written to `/var/log/backup.log` and include timestamps for start, success, or failure.
 
-![alt text](image-1.png)
+![Screenshot 2025-05-11 113912](https://github.com/user-attachments/assets/1f4f3726-bd1c-4a63-9125-ecd4fafd7fa5)
 
-![alt text](image-2.png)
+
+![image](https://github.com/user-attachments/assets/8c9e43f3-233c-4750-b8d6-d244a87c3696)
+
