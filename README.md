@@ -75,5 +75,5 @@ Logs are written to `/var/log/backup.log` and include timestamps for start, succ
 ![Screenshot 2025-05-11 113912](https://github.com/user-attachments/assets/1f4f3726-bd1c-4a63-9125-ecd4fafd7fa5)
 
 
-![image](https://github.com/user-attachments/assets/8c9e43f3-233c-4750-b8d6-d244a87c3696)
+![image](https://github.com/user-attachments/assets/5a3fa8f7-db56-446f-bb30-d31d9e7a8144)
 
