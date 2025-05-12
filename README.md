@@ -13,6 +13,7 @@ Automating backups to Azure Blob Storage ensures data durability, scalability, a
 The backup process involves copying files from an Ubuntu server to Azure Blob Storage using AzCopy, scheduled via cron jobs. A SAS token secures the transfer without exposing storage account keys.
 
 ![Architecture Diagram]![backup arc](https://github.com/user-attachments/assets/e135af89-5af5-4145-8205-6199e3f4c5f5)
+
 *Diagram*: Ubuntu server → AzCopy → Azure Blob Storage (secured with SAS token).
 
 ---
