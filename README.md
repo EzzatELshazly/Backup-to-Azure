@@ -179,7 +179,7 @@ Verify the file appears in your Azure Blob Storage container via the Azure Porta
 ![image](https://github.com/user-attachments/assets/5a3fa8f7-db56-446f-bb30-d31d9e7a8144)
 
 ---
-## Note: The transfer ( upload ) data in seconds.
+## Note: The transfer ( upload ) data take seconds.
 
 ## Troubleshooting
 - **AzCopy fails**: Verify the SAS token is valid and has Write permissions.
