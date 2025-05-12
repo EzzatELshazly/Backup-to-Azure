@@ -12,7 +12,7 @@ Automating backups to Azure Blob Storage ensures data durability, scalability, a
 ## Architecture Overview
 The backup process involves copying files from an Ubuntu server to Azure Blob Storage using AzCopy, scheduled via cron jobs. A SAS token secures the transfer without exposing storage account keys.
 
-![Architecture Diagram](https://raw.githubusercontent.com/your-repo/backup-to-azure/main/architecture-diagram.png)
+![Architecture Diagram]![backup arc](https://github.com/user-attachments/assets/e135af89-5af5-4145-8205-6199e3f4c5f5)
 *Diagram*: Ubuntu server → AzCopy → Azure Blob Storage (secured with SAS token).
 
 ---
@@ -45,11 +45,14 @@ azcopy --version
 ```
 azcopy version 10.x.x
 ```
+![image](https://github.com/user-attachments/assets/24be6592-ba7e-4396-b7ae-e981c7096219)
 
 ---
 
 ## Step 2: Generate a SAS Token
 A **Shared Access Signature (SAS) token** provides secure, time-limited access to your Azure Blob Storage container without sharing the account key.
+
+![generate sas token ](https://github.com/user-attachments/assets/698495b0-afd7-461c-befc-cc54cf516756)
 
 ### Steps to Create a SAS Token
 1. **Log in to the Azure Portal**:
@@ -161,19 +164,22 @@ cat /var/log/backup.log
 Backup started at Sun May 11 18:00:00 UTC 2025
 Backup SUCCESS at Sun May 11 18:00:05 UTC 2025
 ```
+![Screenshot 2025-05-11 113912](https://github.com/user-attachments/assets/1f4f3726-bd1c-4a63-9125-ecd4fafd7fa5)
 
 ---
 
 ## Step 6: Test the Backup
 Manually run the script to ensure it works:
 ```bash
-bash /usr/local/bin/backup_to_blob.sh
+sudo /usr/local/bin/backup_to_blob.sh
 ```
 
 Verify the file appears in your Azure Blob Storage container via the Azure Portal or CLI.
 
----
+![image](https://github.com/user-attachments/assets/5a3fa8f7-db56-446f-bb30-d31d9e7a8144)
 
+---
+## Note: The transfer ( upload ) data in seconds.
 
 ## Troubleshooting
 - **AzCopy fails**: Verify the SAS token is valid and has Write permissions.
