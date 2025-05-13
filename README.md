@@ -1,6 +1,6 @@
 # Backup Files from Ubuntu to Azure Blob Storage: A Step-by-Step Guide
 
-This guide explains how to set up a robust system to back up files (e.g., a SQLite database) from an Ubuntu machine to Azure Blob Storage on a daily, monthly, or custom schedule using **AzCopy** and **cron**. It includes instructions for generating **Shared Access Signature (SAS) tokens** for secure access and an architecture diagram for clarity.
+This guide explains how to set up a robust system to back up files (e.g., a SQLite database files,photos,logs,important files) from an Ubuntu machine to Azure Blob Storage on a daily, monthly, or custom schedule using **AzCopy** and **cron**. It includes instructions for generating **Shared Access Signature (SAS) tokens** for secure access and an architecture diagram for clarity.
 
 ---
 
