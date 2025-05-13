@@ -3,6 +3,9 @@
 This guide explains how to set up a robust system to back up files (e.g., a SQLite database files,photos,logs,important files) from an Ubuntu machine to Azure Blob Storage on a daily, monthly, or custom schedule using **AzCopy** and **cron**. It includes instructions for generating **Shared Access Signature (SAS) tokens** for secure access and an architecture diagram for clarity.
 
 ---
+## What is AzCopy?
+
+AzCopy is a Command Line utility that provides the capability of migrating the files from local on premises system to Azure storage account and move files in between the storage account such as copying files from a blob to another blob.
 
 ## Why This Matters
 Automating backups to Azure Blob Storage ensures data durability, scalability, and security. This solution is ideal for developers, sysadmins, or businesses managing critical files on Linux servers.
