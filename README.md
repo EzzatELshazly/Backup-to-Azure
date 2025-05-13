@@ -8,7 +8,7 @@ This guide explains how to set up a robust system to back up files (e.g., a SQLi
 AzCopy is a Command Line utility that provides the capability of migrating the files from local on premises system to Azure storage account and move files in between the storage account such as copying files from a blob to another blob.
 
 ## Why This Matters
-Automating backups to Azure Blob Storage ensures data durability, scalability, and security. This solution is ideal for developers, sysadmins, or businesses managing critical files on Linux servers.
+Automating backups to Azure Blob Storage ensures data durability, scalability, and security. This solution is ideal for managing critical files on Linux servers.
 
 ---
 
